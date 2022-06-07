@@ -3,6 +3,7 @@ import { Footer } from '../components/Footer'
 import Image from 'next/image';
 
 import styles from '../styles/Error.module.css'
+import { ButtonHome } from '../components/ButtonReturnHome';
 
 export default function FourOhFour() {
   return (
@@ -20,12 +21,9 @@ export default function FourOhFour() {
           </div>
 
           <h1 className={styles.red}>404 - Page Not Found</h1>
-          <Link href="/">
-            <a>
-              Retorne a Home
-            </a>
-          </Link>
+          
 
+          <ButtonHome />
 
 
         </main>

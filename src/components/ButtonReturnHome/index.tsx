@@ -4,8 +4,8 @@ import styles from './buttonHome.module.css';
 
 export function ButtonHome () {
     return (
-            <Link href="https://wa.me/556999732942">
-                <a className={styles.button} target="_blank">
+            <Link href="/">
+                <a className={styles.button}>
                     Retorne a Home
                 </a>
             </Link>

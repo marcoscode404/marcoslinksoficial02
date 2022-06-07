@@ -8,7 +8,8 @@ import { AiFillFacebook, AiFillGithub, AiFillGitlab, AiFillIdcard, AiFillInstagr
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { ButtonContact } from '../components/Button';
-// import { ButtonHome } from '../components/ButtonHome';
+import { ButtonChat } from '../components/Button/ButtonChat';
+
 
 
 
@@ -47,8 +48,8 @@ export default function Home() {
 
         
           <ButtonContact />
-
-        
+          <ButtonChat />
+         
         
       </div>
        

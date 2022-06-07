@@ -28,7 +28,7 @@ type UtterancesCommentsProps = {
           }
           const scriptElement = document.createElement('script');
           scriptElement.src = 'https://utteranc.es/client.js';
-          scriptElement.setAttribute('repo', 'marcoscode404/Ignite-Chapter-III');
+          scriptElement.setAttribute('repo', 'marcoscode404/marcoslinksoficial02');
           scriptElement.setAttribute('issue-term', issueTerm);
           scriptElement.setAttribute('label', label);
           scriptElement.setAttribute('theme', theme);

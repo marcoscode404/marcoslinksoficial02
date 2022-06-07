@@ -3,27 +3,24 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
     height: 100%; 
-}
-
-.button h1 {
-    color: #fff;
-}
-
-.button a {
     color: #fff;
     text-align: center;
-    color: #FFF;
     background: #DF3F8B;
     padding: 1rem;
     width: 20rem;
+
     border-radius: .5rem;
-    margin: 30px 0 200px ;
-    transition: 1ms;
-     
+    margin: auto;
+    transition: 1.5s;
 }
 
-.button a:hover{
+
+   
+
+
+
+
+.button:hover{
     filter: brightness(1.2);
 }
