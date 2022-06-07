@@ -1,12 +1,8 @@
-;
 import React from 'react'
 import { UtterancesComments } from '../components/UtterancesComments';
 import { Footer } from '../components/Footer';
 import styles from '../styles/Chat.module.css';
 import { ButtonHome } from '../components/ButtonReturnHome';
-// import Comments from '../components/Comments';
-
-
 
 
 export default function FourOhFour() {
