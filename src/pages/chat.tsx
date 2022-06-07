@@ -12,22 +12,15 @@ export default function FourOhFour() {
         <h1 className={styles.titulo}>deixe seu comentário</h1>
 
        <UtterancesComments
-            // src="https://utteranc.es/client.js"
-            // async
-            // label="Utterances Comments"
-           
-            // repositoryURL="https://github.com/marcoscode404/marcoslinksoficial02"
-            // issue-term="pathname"
-            // theme="github-dark"
-            // crossorigin="anonymous"
-        
+        async
+        crossOrigin="anonymous"
+        issue-term="pathname"
+        label="Utterances Comments"
+        theme="github-dark"
+        repositoryURL="https://github.com/marcoscode404/marcoslinksoficial02" issueTerm={''}
         /> 
 
-        {/* <Comments /> */}
-
-    
-
-            
+     
             <main className={styles.main}>
               <ButtonHome />
             </main> 
