@@ -5,11 +5,13 @@ import styles from './logo.module.css'
 export function Header() {
     return (
         <div className={styles.logo}>
-            <Image className={styles.img}
-                src="/profile.jpg" alt="minha logo" 
-                width={180}
-                height={180}
-            />
+           <div className={styles.img}>
+                <Image 
+                    src="/profile.jpg" alt="minha logo" 
+                    width={180}
+                    height={180}
+                />
+           </div>
 
             <h1 className={styles.title}>
               Marcos Vinicius Marques Gomes

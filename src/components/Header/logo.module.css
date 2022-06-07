@@ -11,22 +11,38 @@
     display: block;
    
     margin: 0px auto 24px;
-    width: min(50%, 180px);
+    width: min(80%, 180px);
     height: 180px;
+    min-height: 80%;
     border-radius: 50%;
     padding: 9px;
-    border: 1px solid rgb(4, 211, 97);
+    border: 4px solid rgb(4, 211, 97);
   }
+
+.img img {
+  border-radius: 50%;
+}
   
   .logo .title{
     color: #E1E1E6;
+    padding: 0 1rem;
     
   }
   
   .logo strong {
     font-size: 20px;
     color: rgb(4, 211, 97);
-    
+    padding: 0 1rem;
   }
 
+
+  @media (max-width: 600px) {
+    .logo .title {
+      font-size: 1.5rem;
+    }
+    
+    .logo strong {
+      font-size: 1rem;
+    }
+  }
   
