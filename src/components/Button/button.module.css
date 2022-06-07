@@ -1,11 +1,12 @@
 .contact {
-  color: #FFF;
-  background: #DF3F8B;
+  color: var(--white);
+  background: var(--pink);
   padding: 1rem;
   width: 90%;
   border-radius: .5rem;
   margin: 20px 0 10px ;
   transition: .5s;
+  font-size: 1.1rem;
 }
 
 .contact:hover {

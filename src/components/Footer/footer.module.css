@@ -11,6 +11,6 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  color: #DF3F8B;
+  color: var(--pink);
   
 }

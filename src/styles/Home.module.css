@@ -3,7 +3,7 @@
   
   width: min(95%, 40rem);
   height: min(100%, 600px);
-  background: rgb(32, 32, 36);
+  background: var(--black-100);
   border-radius: 5px;
   padding: 0px 5px;
   margin: 140px auto 4px;
@@ -32,17 +32,17 @@
   height: 180px;
   border-radius: 50%;
   padding: 9px;
-  border: 4px solid rgb(4, 211, 97);
+  border: 4px solid var(--green);
 }
 
 .logo .title{
-  color: #E1E1E6;
+  color: var(--white-300);
   
 }
 
 .logo strong {
   font-size: 20px;
-  color: rgb(4, 211, 97);
+  color: var(--green);
   
 }
 
@@ -56,8 +56,8 @@
 .signSocial {
   width: 90%;
   height: 10rem;
-  color: #fff;
-  background: #2C2F34;
+  color: var(--white);
+  background: var(--black-50);
   padding: 12px;
   display: flex;
   align-items: center;
@@ -77,13 +77,13 @@
   width:  84px;
   height: 50px;
   padding-top: 8px;
-  background-color: #121214;
+  background-color: var(--black-800);
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
-  border-bottom: 1px solid #121214;
+  border-bottom: 1px solid var(--black-800);
   cursor: pointer;
   font-size: 1.8rem;
-  color: #DF3F8B;
+  color: var(--pink);
   border-radius: 8px;
   transition: all .5s;
 }

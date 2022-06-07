@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './buttonChat.module.css';
 
 
 type UtterancesCommentsProps = {
@@ -21,7 +20,7 @@ type UtterancesCommentsProps = {
   }: UtterancesCommentsProps): JSX.Element {
     // https://utteranc.es/?installation_id=17233511&setup_action=install
     return (
-      <section className={styles.reder}
+      <section 
         ref={element => {
           if (!element || element.childNodes.length) {
             return;

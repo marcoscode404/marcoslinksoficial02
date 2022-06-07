@@ -1,18 +1,12 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import Head from 'next/head'
-
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 import { AiFillFacebook, AiFillGithub, AiFillGitlab, AiFillIdcard, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillTwitterSquare } from "react-icons/ai";
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { ButtonContact } from '../components/Button';
 import { ButtonChat } from '../components/Button/ButtonChat';
-
-
-
-
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -24,43 +18,60 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-
       <main className={styles.main}>
 
-        <div className={styles.content}>
+          <div className={styles.content}>
 
+            <Header />
+              
+              <div className={styles.signSocial}>
+                <Link  href="https://www.facebook.com/Marcos.Code1999/" >
+                  <a target="_blank" > <AiFillFacebook /> </a>
+                </Link>
 
-        <Header />
-          
+                <Link href="https://www.instagram.com/marcosviniicode/">
+                  <a target="_blank"> <AiFillInstagram />  </a>
+                </Link>
+                
+                <Link href="https://github.com/marcoscode404" >
+                  <a target="_blank"> <AiFillGithub /> </a>
+                </Link>
+                
+                <Link  href="https://www.linkedin.com/in/marcos-vini-code-984903181/">
+                  <a target="_blank"> <AiFillLinkedin /> </a>
+                </Link>
+                
+                <Link  href="https://blogvinicode.vercel.app/#" >
+                  <a target="_blank"> <AiFillIdcard /> </a>
+                </Link>
+                
+                <Link href="https://twitter.com/MarcosV22772662">
+                  <a target="_blank"> <AiFillTwitterSquare /> </a>
+                </Link>
+                
+                <Link  href="https://gitlab.com/marcosviniciuspgerogov253">
+                  <a target="_blank"> <AiFillGitlab /> </a>
+                </Link>
 
-          <div className={styles.signSocial}>
-            <a href="https://www.facebook.com/Marcos.Code1999/" target="_blank" > <AiFillFacebook /> </a>
-            <a href="https://www.instagram.com/marcosviniicode/" target="_blank"> <AiFillInstagram />  </a>
-            <a href="https://github.com/marcoscode404" target="_blank"> <AiFillGithub /> </a>
-            <a href="https://www.linkedin.com/in/marcos-vini-code-984903181/" target="_blank"> <AiFillLinkedin /> </a>
-            <a href="https://blogvinicode.vercel.app/#" target="_blank"> <AiFillIdcard /> </a>
-            <a href="https://twitter.com/MarcosV22772662" target="_blank"> <AiFillTwitterSquare /> </a>
-            <a href="https://gitlab.com/marcosviniciuspgerogov253" target="_blank"> <AiFillGitlab /> </a>
-           
-            <a href="marcosviniciuspgerogov253@gmail.com"> <AiFillMail /> </a>
+                <Link href="marcosviniciuspgerogov253@gmail.com">
+                  <a > <AiFillMail /> </a>
+                </Link>
+              
+              </div>
+
+            
+              <ButtonContact />
+              <ButtonChat />
+            
+            
           </div>
 
-        
-          <ButtonContact />
-          <ButtonChat />
-         
-        
-      </div>
-       
-       
-        
       </main>
 
             <Footer />
 
     </div>
-  )
-}
+  );
+};
 
 

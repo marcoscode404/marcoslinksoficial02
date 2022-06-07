@@ -7,6 +7,20 @@ body {
   background: #121214;
 }
 
+:root {
+  --black-50: #2C2F34;
+  --black-100: rgb(32, 32, 36);
+  --black-800: #121214;
+
+  --green: rgb(4, 211, 97); 
+
+  --pink: #DF3F8B;
+  --blue: #1347a8;
+
+  --white: #fff;
+  --white-300: #E1E1E6;
+}
+
 a {
   color: inherit;
   text-decoration: none;

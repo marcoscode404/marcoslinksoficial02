@@ -4,15 +4,18 @@
     justify-content: center;
     flex-direction: column;
     height: 100%; 
-    color: #fff;
+    color: var(--white);
     text-align: center;
-    background: #DF3F8B;
+    background: var(--pink);
     padding: 1rem;
     width: 20rem;
-
+    font-size: 1.3rem;
     border-radius: .5rem;
     margin: auto;
-    transition: 1.5s;
+    transition: 1s;
+  
+   
+    
 }
 
 
