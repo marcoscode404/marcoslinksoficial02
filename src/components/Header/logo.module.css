@@ -1,0 +1,32 @@
+
+.logo {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    
+  }
+  
+  .img {
+   
+    display: block;
+   
+    margin: 0px auto 24px;
+    width: min(50%, 180px);
+    height: 180px;
+    border-radius: 50%;
+    padding: 9px;
+    border: 1px solid rgb(4, 211, 97);
+  }
+  
+  .logo .title{
+    color: #E1E1E6;
+    
+  }
+  
+  .logo strong {
+    font-size: 20px;
+    color: rgb(4, 211, 97);
+    
+  }
+
+  

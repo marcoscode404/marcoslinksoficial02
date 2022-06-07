@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 100%; 
+}
+
+.main h1 {
+    color: #fff;
+}
+
+.main a {
+    color: #fff;
+    text-align: center;
+    color: #FFF;
+    background: #DF3F8B;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: .5rem;
+    margin: 30px 0 200px ;
+    transition: 1ms;
+     
+}
+
+.main a:hover{
+    filter: brightness(1.2);
+}
+
+.image {
+    margin-top: 2rem;
+}
+
+.rotate {
+    margin-top: 20rem;
+    animation: rotation 1.5s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+      top: -5%;
+    }
+    50% {
+      bottom: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+
+  }

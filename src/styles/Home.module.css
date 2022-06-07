@@ -1,0 +1,117 @@
+
+.content {
+  
+  width: min(95%, 40rem);
+  height: min(100%, 600px);
+  background: rgb(32, 32, 36);
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin: 140px auto 4px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.logo {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.logo img {
+ 
+  display: block;
+ 
+  margin: 0px auto 24px;
+  width: min(50%, 180px);
+  height: 180px;
+  border-radius: 50%;
+  padding: 9px;
+  border: 4px solid rgb(4, 211, 97);
+}
+
+.logo .title{
+  color: #E1E1E6;
+  
+}
+
+.logo strong {
+  font-size: 20px;
+  color: rgb(4, 211, 97);
+  
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  margin: auto;
+  max-width: 1336px;
+}
+
+.signSocial {
+  width: 90%;
+  height: 10rem;
+  color: #fff;
+  background: #2C2F34;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  margin: 300px 0 0 0;
+
+}
+
+.signSocial a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-right: 10px;
+  width:  84px;
+  height: 50px;
+  padding-top: 8px;
+  background-color: #121214;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+  border-bottom: 1px solid #121214;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: #DF3F8B;
+  border-radius: 8px;
+  transition: all .5s;
+}
+
+.signSocial a:hover{
+  filter: brightness(1.5);
+} 
+
+
+
+
+
+@media (max-width: 600px) {
+
+  .signSocial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20rem;
+  }
+
+  .signSocial a {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+
+}

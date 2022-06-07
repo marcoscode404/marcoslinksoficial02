@@ -1,0 +1,14 @@
+.contact {
+  color: #FFF;
+  background: #DF3F8B;
+  padding: 1rem;
+  width: 90%;
+  border-radius: .5rem;
+  margin: 30px 0 10px ;
+  transition: .5s;
+}
+
+.contact:hover {
+  filter: brightness(1.1);
+  
+}
