@@ -1,9 +1,13 @@
-
+;
 import React from 'react'
-import { UtterancesComments } from '../components/UtterancesComments'
-import { Footer } from '../components/Footer'
-import styles from '../styles/Chat.module.css'
-import { ButtonHome } from '../components/ButtonReturnHome'
+import { UtterancesComments } from '../components/UtterancesComments';
+import { Footer } from '../components/Footer';
+import styles from '../styles/Chat.module.css';
+import { ButtonHome } from '../components/ButtonReturnHome';
+// import Comments from '../components/Comments';
+
+
+
 
 export default function FourOhFour() {
   return (
@@ -11,16 +15,22 @@ export default function FourOhFour() {
         
         <h1 className={styles.titulo}>deixe seu comentário</h1>
 
-        <UtterancesComments
-            async
-            label="Utterances Comments"
-            src="https://utteranc.es/client.js"
-            repositoryURL="https://github.com/marcoscode404/marcoslinksoficial02"
-            issue-term="pathname"
-            theme="github-dark"
-            crossorigin="anonymous"
+       <UtterancesComments
+            // src="https://utteranc.es/client.js"
+            // async
+            // label="Utterances Comments"
+           
+            // repositoryURL="https://github.com/marcoscode404/marcoslinksoficial02"
+            // issue-term="pathname"
+            // theme="github-dark"
+            // crossorigin="anonymous"
         
-        />
+        /> 
+
+        {/* <Comments /> */}
+
+    
+
             
             <main className={styles.main}>
               <ButtonHome />

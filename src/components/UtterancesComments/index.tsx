@@ -28,10 +28,11 @@ type UtterancesCommentsProps = {
           const scriptElement = document.createElement('script');
           scriptElement.src = 'https://utteranc.es/client.js';
           scriptElement.setAttribute('repo', 'marcoscode404/marcoslinksoficial02');
-          scriptElement.setAttribute('issue-term', issueTerm);
+          scriptElement.setAttribute('issue-term', 'pathname');
           scriptElement.setAttribute('label', label);
-          scriptElement.setAttribute('theme', theme);
-          scriptElement.crossOrigin = crossOrigin;
+          scriptElement.setAttribute('theme', 'dark-blue');
+          scriptElement.setAttribute('crossorigin', 'anonymous');
+          scriptElement.setAttribute('async', 'true');
           scriptElement.async = async;
           element.appendChild(scriptElement);
         }}
